@@ -11,7 +11,7 @@ Note: The list name will be matched from the portal configuration and not the ac
 # Prerequisites
 1. eGain system url with context root.
 1. eGain knowledge base portal id 
-1. The list should be in scope of the KB portal. 
+1. The list should be created and in scope of the KB portal. 
 1. Enable CORS in the eGain application. This is required in order to make the web service APIs work without CORS issues. Follow section "Enabling Cross-Origin Resource Sharing" of the product guide "eGain Administrator’s Guide to Administration Console".
 
 
@@ -82,7 +82,6 @@ The API to call it dynamically is as follows:
 |data-egain-link-target | The target window to be used to open the link. |	String	| Should be same as target attribute of the HTML Anchor element. For e.g. _blank or _self etc. |	As default set by browser. |	No
 |data-egain-locale | The locale of the knowledge data.|	String| Format "languagecode-CountryCode". For e.g., "en-US". Should match with the MLKB language. | en-US|	No|
 |data-egain-portal-id | Id of the Portal created through eGain KB console (confirm this with eGain deployment team). | Numeric	| E.g., 201700000001000	| NONE	| Yes|
-|data-egain-template-base | Base template name to decide whether to load templates based on "aqua" or "kiwi" or"sunburst".	| String | aqua , kiwi, sunburst | aqua |	No
 |data-egain-list-name | The name of the list that is configured in the portal. If found then the articles in the list will be displayed as a list. | String | Eg. Hot Topics | None | Yes
 
 
