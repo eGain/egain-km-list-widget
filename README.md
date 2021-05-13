@@ -16,7 +16,7 @@ Note: The list name will be matched from the portal configuration and not the ac
 
 
 # Using The List Widget
-1. Clone or download the Sample Application from git hub repository https://github.com/g-aprajidiot/eGain-KM-List-Widget.
+1. Clone or download the Sample Application from git hub repository https://github.com/snehaldatar/eGain-KM-List-Widget.
 1. Change below attributes as required in the index html file.
     1. your_egain_system_url_with-context_root
     1. your_kb_portal_id
